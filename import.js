@@ -5,7 +5,7 @@ const dotenv = require('dotenv').config();
 const dbSeed = require(`./seeds/comics.js`);
 
 // Define model
-const Animal = require(`./models/comic.js`);
+const Comic = require(`./models/comic.js`);
 
 /*******************************/
 /* Mongoose/MongoDB Connection */
@@ -29,7 +29,5 @@ db.once('open', function() {
 
 Comic.insertMany(dbSeed, function(error, comic) {
   console.log('Data import completed.')
-  // log comics
-  console.log(comics);
   mongoose.connection.close();
 });
