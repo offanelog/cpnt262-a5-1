@@ -8,6 +8,9 @@ require('dotenv').config();
 // Import models
 const Comic = require(`./models/comic.js`);
 
+// Import seeds
+const comics = require('./seeds/comics.js')
+
 // Create express app
 const app = express();
 app.set('view engine','ejs')
