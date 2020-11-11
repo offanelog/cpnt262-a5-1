@@ -35,8 +35,21 @@ db.once('open', function() {
 
 });
 
-app.get('/api/v0/gallery', (req, res) => {
+
+// endpoint for all objects
+app.get('/api/v0/classics', (req, res) => {
   res.json(comics);
+});
+
+// endpoint for individual objects
+app.get('/api/v0/classics/:id', (req, res) => {
+  const found = comics.find(comic => comic.id == parseInt(req.params.id));
+  if (found) {
+    res.json(found);
+  }
+  else {
+    res.send('404: select another issue');
+  }
 });
 
 // Add more middleware

@@ -34,6 +34,30 @@ const comics = [
     title:  'Secret Wars',
     credit: 'Jim Shooter',
     url:    'https://www.marvel.com/comics/events/270/secret_wars'
+  },
+  {
+    id:     107,
+    title:  'Daredevil: Born Again',
+    credit: 'Frank Miller',
+    url:    'https://www.marvel.com/comics/discover/1032/daredevil-born-again'
+  },
+  {
+    id:     108,
+    title:  'Fantastic Four: The Coming of Galactus',
+    credit: 'Stan Lee',
+    url:    'https://www.marvel.com/comics/collection/70269/fantastic_four_epic_collection_the_coming_of_galactus_trade_paperback'
+  },
+  {
+    id:     109,
+    title:  'Annihilation',
+    credit: 'Keith Giffen',
+    url:    'https://www.marvel.com/comics/events/229/annihilation'
+  },
+  {
+    id:     110,
+    title:  'X-Men: Days of Future Past',
+    credit: 'Chris Claremont',
+    url:    'https://www.marvel.com/comics/discover/1467/x-men-days-of-future-past'
   }
 ];
 
