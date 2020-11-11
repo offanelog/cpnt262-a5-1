@@ -2,12 +2,12 @@
 by Michael Mardell
 
 **Heroku App**
-- GET array [api/v0/classics](https://cpnt262-a5.herokuapp.com/classics) endpoint link. 
-- GET object by id [api/v0/classics/101](https://cpnt262-a5.herokuapp.com/classics/101) endpoint link.
+- GET array [api/v0/classics](https://cpnt262-a5.herokuapp.com/api/v0/classics) endpoint link. 
+- GET object by id [api/v0/classics/101](https://cpnt262-a5.herokuapp.com/api/v0/classics/101) endpoint link.
 
-All object id links: [101](https://cpnt262-a5.herokuapp.com/classics/101), [102](https://cpnt262-a5.herokuapp.com/classics/102), [103](https://cpnt262-a5.herokuapp.com/classics/103), [104](https://cpnt262-a5.herokuapp.com/classics/104), [105](https://cpnt262-a5.herokuapp.com/classics/105), [106](https://cpnt262-a5.herokuapp.com/classics/106), [107](https://cpnt262-a5.herokuapp.com/classics/107), [108](https://cpnt262-a5.herokuapp.com/classics/108), [109](https://cpnt262-a5.herokuapp.com/classics/109), [110](https://cpnt262-a5.herokuapp.com/classics/110).
+All object id links: [101](https://cpnt262-a5.herokuapp.com/api/v0/classics/101), [102](https://cpnt262-a5.herokuapp.com/api/v0/classics/102), [103](https://cpnt262-a5.herokuapp.com/api/v0/classics/103), [104](https://cpnt262-a5.herokuapp.com/api/v0/classics/104), [105](https://cpnt262-a5.herokuapp.com/api/v0/classics/105), [106](https://cpnt262-a5.herokuapp.com/api/v0/classics/106), [107](https://cpnt262-a5.herokuapp.com/api/v0/classics/107), [108](https://cpnt262-a5.herokuapp.com/api/v0/classics/108), [109](https://cpnt262-a5.herokuapp.com/api/v0/classics/109), [110](https://cpnt262-a5.herokuapp.com/api/v0/classics/110).
 
-404 object link: [999](https://cpnt262-a5.herokuapp.com/classics/999) (or any id other than those listed above).
+404 object link: [999](https://cpnt262-a5.herokuapp.com/api/v0/classics/999) (or any id other than those listed above).
 
 [GitHub Repo](https://github.com/aggressiveperfector/cpnt262-a5) link.
 
