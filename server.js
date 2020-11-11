@@ -7,9 +7,7 @@ require('dotenv').config();
 
 // Import models
 const Comic = require(`./models/comic.js`);
-
-// Import seeds
-const comics = require('./seeds/comics.js')
+const { request } = require('http');
 
 // Create express app
 const app = express();
@@ -37,19 +35,30 @@ db.once('open', function() {
 
 
 // endpoint for all objects
+// thanks Patrick!
 app.get('/api/v0/classics', (req, res) => {
-  res.json(comics);
+  Comic.find({}, (err, data) => {
+    if (err) {
+      res.send('Could not retrieve comics')
+    }
+    else {
+      res.json(data);
+    }
+  });
 });
 
 // endpoint for individual objects
+// thanks Patrick!
 app.get('/api/v0/classics/:id', (req, res) => {
-  const found = comics.find(comic => comic.id == parseInt(req.params.id));
-  if (found) {
-    res.json(found);
-  }
-  else {
-    res.send('404: select another issue');
-  }
+  Comic.findOne({id: req.params.id}, (err, data) => {
+    if (err || data===null) {
+      res.send('Could not find comic');
+      console.log(err);
+    }
+    else {
+      res.json(data);
+    }
+  });
 });
 
 // Add more middleware
