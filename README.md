@@ -20,3 +20,9 @@ Set up a simple app to return JSON objects from MongoDB/Atlas hosted on Heroku.
 
 [**acidtone**](https://github.com/acidtone)
 - Instructor's [In class code](https://github.com/sait-wbdv/in-class) helped a lot again, although due to the nature of the smaller apps and multiple lessons, was a lot more confusing trying to reference and go back to.
+
+[**Games Radar**](https://www.gamesradar.com/)
+- Used [this](https://www.gamesradar.com/best-marvel-comics-stories/) games radar article for a random list of classic comics.
+
+[**Marvel**](https://www.marvel.com/)
+- Took a couple minutes to include a link to each book/series on Marvel.com
